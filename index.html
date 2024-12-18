@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="header">HTML5 Day1</h1>
+    </header>
+    <nav>
+        <ul>
+            <!-- li*3>a -->
+            <li>
+                <a href="http://">Home</a>
+            </li>
+            <li>
+                <a href="http://">About</a>
+            </li>
+            <li>
+                <a href="http://">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="about">
+        <h2> About</h2>
+        <section class="about-pic">
+            <img src="imgs/about-us.png" alt="about-us-img" title="about-us-img">
+        </section>
+        <section class="about-info">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis reiciendis ullam architecto non
+                delectus eaque sunt numquam, illo neque id est, adipisci tenetur asperiores veritatis. Corporis eos
+                voluptate numquam quis et fugit neque quo expedita est dolore aut, doloremque eum temporibus possimus
+                beatae odio rerum voluptates iure sunt obcaecati a.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis reiciendis ullam architecto non
+                delectus eaque sunt numquam, illo neque id est, adipisci tenetur asperiores veritatis. Corporis eos
+                voluptate numquam quis et fugit neque quo expedita est dolore aut, doloremque eum temporibus possimus
+                beatae odio rerum voluptates iure sunt obcaecati a.
+            </p>
+        </section>
+        <section class="clear"></section>
+
+    </section>
+
+    <main>
+        <h2>Services</h2>
+        <section class="service">
+            <h3>
+                service1
+            </h3>
+            <img src="imgs/about-us.png" alt="" srcset="">
+            <p>
+
+                <mark>Lorem </mark> commodi nihil numquam alias inventore? Nostrum sequi quia tenetur vitae obcaecati
+                laborum, deleniti dignissimos vero
+            </p>
+            <button>Apply Service</button>
+        </section>
+        <section class="service">
+            <h3>
+                service2
+            </h3>
+            <img src="imgs/about-us.png" alt="" srcset="">
+            <p>
+
+                <mark>Lorem </mark> commodi nihil numquam alias inventore? Nostrum sequi quia tenetur vitae obcaecati
+                laborum, deleniti dignissimos vero
+            </p>
+            <button>Apply Service</button>
+        </section>
+        <section class="service">
+            <h3>
+                service3
+            </h3>
+            <img src="imgs/about-us.png" alt="" srcset="">
+            <p>
+
+                <mark>Lorem </mark> commodi nihil numquam alias inventore? Nostrum sequi quia tenetur vitae obcaecati
+                laborum, deleniti dignissimos vero
+            </p>
+            <button>Apply Service</button>
+        </section>
+        <section class="clear"></section>
+    </main>
+    <article class="news">
+        <h2>All News</h2>
+        <p>
+            <mark>Lorem </mark> ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatem facere repellat,
+            similique nostrum sint dolores, voluptatum nisi totam nemo vitae voluptatibus hic cumque ea et molestias qui
+            perspiciatis neque a sequi quo nam accusantium laborum. Impedit rerum nesciunt, nostrum labore quam sequi
+            consequatur in ullam quasi cum dignissimos fuga deserunt pariatur eos et, repudiandae autem vero incidunt
+            voluptatum at ratione nihil?
+        </p>
+
+
+        <details open>
+            <summary><mark>Skills</mark></summary>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </details>
+    </article>
+
+    <section class="new-inputs">
+        <!-- action="./index.html" -->
+        <form method="get" id="myform">
+            <h3>User Info</h3>
+            <input type="text" name="name" id="" placeholder="userName" minlength="3" maxlength="15">
+
+            <input type="email" name="email" id="" placeholder="userEmail">
+
+            <input type="password" name="password" id="" placeholder="userPassword">
+            <!-- <input type="date" name="date" id=""> -->
+            <input type="datetime-local" name="date" id="">
+            <input type="week" name="date" id="">
+            <input type="file" name="" id="" multiple>
+            <label for="" id="colorValue">Choose Your color</label>
+            <input type="color" name="" id="color">
+            <input type="range" name="" id="inputRange" min="10" max="100" step="10">
+            <span id="rangeValue">Rnage Value :</span>
+
+
+            <input type="submit" value="Send Data">
+
+        </form>
+        <input type="text" name="lastName" form="myform" placeholder="lastName">
+    </section>
+
+
+   <!-- media tags   audio , video-->
+
+   <section class="media">
+    <!-- <audio src="media/supermario.mp3" controls muted> -->
+    <audio controls muted>
+        <source src="media/supermario.mp3" type="audio/mb3">
+        <source src="media/supermario.wav" type="audio/wav">
+        <source src="media/supermario.ogg" type="audio/ogg">
+        your browser does't suuport audio 
+
+    </audio> 
+
+    <button onclick="displayAudio()">Display Audio</button>
+    <button onclick="stopAudio()">stop Audio</button>
+    <button onclick="muteAudio()">mute Audio</button>
+    <button onclick="pasueAudio()">pause Audio</button>
+
+    <video muted height="100px" controls width="150px">
+        <source src="media/supermario.mp4" type="video/mp4">
+        <source src="media/supermario.wav" type="video/wav">
+        <source src="media/supermario.ogg" type="video/ogg">
+        your browser does't suuport video
+
+    </video> 
+   </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>

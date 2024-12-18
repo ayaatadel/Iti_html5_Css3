@@ -1,0 +1,41 @@
+ <!--
+
+        html: hyper text mark up language 
+        tags : 
+        1- openning closing tag
+        2- self closing tag
+
+        html5(latest version)
+
+        new elemnts(new sematic tags)  ==> tags that descripe content
+        nav , header, section , main , article , details, aside, mark,
+        footer 
+            
+
+            ==> clean code 
+            ==> SEO => Search engine optimization
+
+        new inputs and attributes
+        media tags (video , audio)
+        graphic tags (canvas and svg)
+        js apis (local stotage , session storage, geolocation)
+    
+    -->
+/*
+
+display ==> 
+inline  ==>  w:content  h=> content
+            ==> padding 
+
+            
+block  ==> w==>100% ==> accepet (w,h)
+padding , margine 
+==> can't take any element beside it
+
+
+
+inline-block   ===> take any element beside it
+ accepet width , heigth , 
+ padding , margine 
+
+*/
